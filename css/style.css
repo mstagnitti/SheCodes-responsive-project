@@ -1,92 +1,106 @@
-:root{
+:root {
   --heading-font: "Gloria Hallelujah", cursive;
   --body-font: "Montserrat", sans-serif;
   --branding-color: rgb(17, 159, 138);
   --secondary-color: rgb(224, 251, 244);
 }
 
-body{
+body {
   font-family: var(--body-font);
 }
 
-h1{
+h1 {
   font-family: var(--heading-font);
   color: var(--branding-color);
 }
 
-h2{
-  color:var(--secondary-color);
-  font-style: normal; 
+h2 {
+  color: var(--secondary-color);
+  font-style: normal;
 }
 
-
-.hero{
+.hero {
   text-align: center;
   padding: 120px 20px;
   background-image: url("/images/hero-banner.jpg");
   background-repeat: none;
-background-position: center;
-background-size: cover;
+  background-position: center;
+  background-size: cover;
 }
 
-.hero h1{
-font-family: var(--heading-font);
-color: var(--secondary-color);
+.hero h1 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
   font-weight: 400;
   font-style: normal;
   font-size: 80px;
 }
 
-.intro-tagline{
-margin: 65px 30px auto;
+.intro-tagline {
+  margin: 65px 30px auto;
 }
 
-.grid-heading{
-    font-family: var(--heading-font);
-    color: var(--branding-color);
-    font-size: 30px;
-  
+.grid-heading {
+  font-family: var(--heading-font);
+  color: var(--branding-color);
+  font-size: 30px;
 }
 
-.homepage-buttons{
+.homepage-buttons {
   background-color: var(--branding-color);
   color: var(--secondary-color);
 }
 
-.homepage-buttons:hover{
+.homepage-buttons:hover {
   background-color: var(--secondary-color);
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
 }
 
-.container{
+.container {
   margin: 70px auto;
 }
 
-.container p{
+.container p {
   opacity: 0.7;
 }
 
-.container img{
+.container img {
   background-color: var(--secondary-color);
-
 }
 
-@media(max-width:768px){
-  body{
+.about-container {
+  padding: 120px 20px;
+}
+
+.about-content {
+  padding: 20px;
+}
+
+.about-content h2 {
+  font-size: 24px;
+  color: rgb(78, 190, 159);
+}
+
+@media (max-width: 768px) {
+  body {
     text-align: center;
   }
 
-  h1{
+  h1 {
     font-size: 435x;
   }
 
-  .hero{
-  padding: 60px 20px;
+  .hero {
+    padding: 60px 20px;
   }
 
-  .intro-tagline{
-margin: 30px 20px 0px 20px;
-font-size: 18px;
-}
+  .intro-tagline {
+    margin: 30px 20px 0px 20px;
+    font-size: 18px;
+  }
+
+  .about-container {
+    padding: 0;
+  }
 }
