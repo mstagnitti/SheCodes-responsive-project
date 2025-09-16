@@ -3,6 +3,7 @@
   --body-font: "Montserrat", sans-serif;
   --branding-color: rgb(17, 159, 138);
   --secondary-color: rgb(224, 251, 244);
+  --tertiary-color: rgb(78, 190, 159);
 }
 
 body {
@@ -69,17 +70,21 @@ h2 {
   background-color: var(--secondary-color);
 }
 
-.about-container {
+.content-container {
   padding: 120px 20px;
 }
 
-.about-content {
+.content-container h3 {
+  color: var(--tertiary-color);
+}
+
+.content {
   padding: 20px;
 }
 
-.about-content h2 {
+.content h2 {
   font-size: 24px;
-  color: rgb(78, 190, 159);
+  color: var(--tertiary-color);
 }
 
 @media (max-width: 768px) {
@@ -100,7 +105,8 @@ h2 {
     font-size: 18px;
   }
 
-  .about-container {
+  .content-container {
     padding: 0;
+    margin-top: 20px;
   }
 }
