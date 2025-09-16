@@ -22,11 +22,19 @@ h2 {
 
 .hero {
   text-align: center;
-  padding: 120px 20px;
+  padding: 100px 20px;
   background-image: url("/images/hero-banner.jpg");
   background-repeat: none;
   background-position: center;
   background-size: cover;
+}
+
+.navbar-custom .nav-link {
+  color: var(--branding-color) !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: var(--tertiary-color) !important;
 }
 
 .hero h1 {
@@ -71,7 +79,7 @@ h2 {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 70px 20px;
 }
 
 .content-container h3 {
