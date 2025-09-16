@@ -43,6 +43,24 @@ footer .social-links a {
   margin: 30px;
 }
 
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+footer .github-footer {
+  font-size: 14px;
+}
+
+footer .github-footer a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+footer .github-footer a:hover {
+  text-decoration: underline;
+}
+
 .footer-contact {
   background-color: var(--secondary-color);
   padding: 20px;
@@ -59,7 +77,7 @@ footer .social-links a {
 }
 
 .navbar-custom .nav-link {
-  color: var(--branding-color) !important;
+  color: rgb(17, 157, 159) !important;
 }
 
 .navbar-custom .nav-link:hover {
