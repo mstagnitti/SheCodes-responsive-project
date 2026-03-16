@@ -25,7 +25,8 @@ footer {
 }
 
 footer h1 {
-  font-size: ;
+  font-size: 30px;
+  margin: 20px 0px;
 }
 
 footer h2 {
@@ -70,9 +71,9 @@ footer .github-footer a:hover {
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background-image: url("/images/hero-banner.jpg");
+  background-image: linear-gradient(rgba(2, 65, 55, 0.7), rgba(2, 65, 55, 0.7)), url("/images/hero-banner.jpeg");
   background-repeat: none;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
